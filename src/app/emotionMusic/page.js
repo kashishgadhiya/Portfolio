@@ -95,7 +95,7 @@ export default function emotionMusic() {
           Future enhancements for the Emotion-Based Music Player include
           integrating Spotify to play music directly from its vast library and
           adding more emotional states to provide an even more personalized
-          music experience. These updates aim to expand the system's
+          music experience. These updates aim to expand the system&apos;s
           capabilities, offering a richer and more diverse user experience.
         </div>
 
@@ -104,8 +104,8 @@ export default function emotionMusic() {
         <p className="text-lg text-zinc-500 my-3">
           Our Emotion-Based Music Player represents a significant advancement in
           the field of human-computer interaction and emotional computing. By
-          combining Python programming with OpenCV's computer vision
-          capabilities, we've created a system that not only understands human
+          combining Python programming with OpenCV&apos;s computer vision
+          capabilities, we&apos;ve created a system that not only understands human
           emotions but also responds to them in a meaningful way through music.
           We believe this technology has the potential to revolutionize how we
           experience and interact with music in various aspects of our lives.

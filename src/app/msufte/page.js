@@ -30,7 +30,7 @@ export default function msufte(){
         <Image src={msu_1} width={800} className="mx-auto my-10" alt="img"></Image>
         <h2 className="font-semibold text-4xl ">Introduction</h2>
         <p className="text-lg text-zinc-500 my-3">
-        The Faculty Connect website is a comprehensive web application designed to provide detailed information about the Faculty of Technology and Engineering. Developed using React and vanilla CSS, this project ensures a clean, responsive, and engaging user interface. The website offers a range of features, including faculty details, student reviews, and a contact form that allows users to send inquiries directly to the faculty's email.
+        The Faculty Connect website is a comprehensive web application designed to provide detailed information about the Faculty of Technology and Engineering. Developed using React and vanilla CSS, this project ensures a clean, responsive, and engaging user interface. The website offers a range of features, including faculty details, student reviews, and a contact form that allows users to send inquiries directly to the faculty&apos;s email.
         </p>
 
         <h2 className="font-semibold text-4xl mt-3">Technologies Used</h2>
@@ -51,7 +51,7 @@ export default function msufte(){
 
 Faculty Information: Detailed information about the Faculty of Technology and Engineering.<br/>
 Student Reviews: Honest and insightful reviews from students about the faculty.<br/>
-Contact Form: A user-friendly form that allows students and users to send questions directly to the faculty's email.<br/>
+Contact Form: A user-friendly form that allows students and users to send questions directly to the faculty&apos;s email.<br/>
 The project avoids the use of CSS frameworks and component libraries, focusing instead on pure CSS to achieve a custom look and feel. EmailJS or a similar service is used to handle form submissions, ensuring that inquiries are efficiently sent to the appropriate email addresses.
         </p>
 

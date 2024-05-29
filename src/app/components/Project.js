@@ -62,7 +62,7 @@ export default function Project() {
               log in using their Google accounts, adding convenience to the
               authentication process. The upcoming admin panel will provide
               comprehensive tools for menu and user management, enhancing the
-              restaurant's online presence.
+              restaurant&apos;s online presence.
             </p>
             <div className="text-white flex mt-3 gap-2 flex-wrap">
               <div className="bg-zinc-500 px-2 rounded-full">NextJS</div>

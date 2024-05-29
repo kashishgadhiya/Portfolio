@@ -32,7 +32,7 @@ export default function Hero() {
             </div>
           </h1>
           <h1 className="font-extrabold text-4xl  lg:mx-0 :mt-28  lg:text-5xl  hidden lg:inline p-3">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span>
               <TypeAnimation
                 sequence={["kashish Gadhiya", 2000, "Web Developer", 2000]}
