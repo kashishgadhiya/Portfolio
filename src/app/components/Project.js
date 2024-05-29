@@ -237,6 +237,7 @@ export default function Project() {
               <Link
                 href={"https://github.com/kashishgadhiya/Portfolio"}
                 className="hover:bg-zinc-600 rounded-full hover:p-0.5"
+                target="_blank"
               >
                 <Github />
               </Link>
