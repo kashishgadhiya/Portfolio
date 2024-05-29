@@ -69,7 +69,7 @@ export default function oldschooleatery() {
         <h2 className="font-semibold text-4xl mt-3">Future Scope</h2>
         <div className=" text-xl  text-zinc-500 flex flex-col mt-3">
           The admin panel, currently under development, will offer comprehensive
-          tools for managing the restaurant's online presence. It will enable
+          tools for managing the restaurant&apos;s online presence. It will enable
           the admin to add and delete menu items, manage user data, and track
           orders. Planned features include easy menu updates, user management,
           and order tracking to ensure smooth operations. Additionally, a
