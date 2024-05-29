@@ -220,7 +220,7 @@ export default function Project() {
         {/* project 4 */}
         <div className="lg:flex grid gap-7 mt-24 ">
           <div className="hidden lg:inline border-1 rounded-lg">
-            <Link href={"/"} className="hover:shadow-lg">
+            <Link href={"https://kashishgadhiya.vercel.app/"} className="hover:shadow-lg">
               <Image
                 src={portfolio}
                 width={2000}
@@ -235,13 +235,13 @@ export default function Project() {
             <h3 className="text-2xl font-semibold my-2">Portfolio</h3>
             <div className="flex gap-3 item-center my-3">
               <Link
-                href={""}
+                href={"https://github.com/kashishgadhiya/Portfolio"}
                 className="hover:bg-zinc-600 rounded-full hover:p-0.5"
               >
                 <Github />
               </Link>
               <Link
-                href={""}
+                href={"https://kashishgadhiya.vercel.app/"}
                 className="mt-1 hover:bg-zinc-600 rounded-full hover:p-0.5"
                 target="_blank"
               >
