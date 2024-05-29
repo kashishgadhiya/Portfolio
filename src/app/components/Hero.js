@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import img from "../../../public/heroimg.png";
-import Download from "./icons/download";
+import Download from "./icons/download.jsx";
 
 
 export default function Hero() {
