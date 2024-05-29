@@ -2,32 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    scroll-behavior: smooth;
+    background-color:  rgb(29, 36, 51);
+
+}
+.navbar{
+    margin: 3vh auto 0px;
+    backdrop-filter: blur(9px);
+    border: 0.5px solid rgb(42, 44, 54);
+    width: 90vw;
+    margin-left: 70px;
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+.moblienav{
+    border: 1px solid rgb(86, 89, 100);
+    backdrop-filter: blur(9px);
+    
+    
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main{
+    height: 100vh;
+    
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.maindiv{
+    background-color:  rgb(29, 36, 51);
+
+}
+.skill{
+    
+    background-color:rgb(35, 42, 59);
+}
+.aboutHr{
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.12);
+    margin-bottom: 1px;
+}
+.pageone{
+    background-color:  rgb(29, 36, 51);
+    
+}
+
+.footerhr{
+    margin: 0px;
+   
+    flex-shrink: 0;
+    border-width: 0px thin 0px 0px;
+    border-style: solid;
+    border-color: white;
+    height: auto;
+    align-self: stretch;
 }
