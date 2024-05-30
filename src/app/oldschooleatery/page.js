@@ -19,14 +19,25 @@ export default function oldschooleatery() {
   return (
     <>
       <section className="mx-auto lg:mt-32 mt-10 text-white pageone mb-5 ">
-        <h1 className="text-white font-semibold lg:text-5xl text-4xl">Old School Eatery</h1>
+        <h1 className="text-white font-semibold lg:text-5xl text-4xl">
+          Old School Eatery
+        </h1>
         <div className="flex gap-3 item-center my-3">
-          <Link href={"https://github.com/kashishgadhiya/Old-school-Eatery"} className="hover:bg-zinc-600 rounded-full hover:p-0.5" target="_blank">
-            <Github />
-          </Link>
-          <Link href={"https://old-school-eatery.vercel.app/"} className="mt-1 hover:bg-zinc-600 rounded-full hover:p-0.5" target="_blank">
-            <ProArrow />
-          </Link>
+        <Link
+                href={"https://github.com/kashishgadhiya/Old-school-Eatery"}
+                className="hover:bg-zinc-600 rounded-full hover:p-0.5"
+                target="_blank"
+              >
+                <Github />
+              </Link>
+              <Link
+                href={"https://old-school-eatery.vercel.app/"}
+                
+                className="mt-1 hover:bg-zinc-600 rounded-full hover:p-0.5"
+                target="_blank"
+              >
+                <ProArrow />
+              </Link>
         </div>
         <Image src={old_1} width={800} className="mx-auto my-10"></Image>
         <h2 className="font-semibold text-4xl ">Introduction</h2>
@@ -69,12 +80,12 @@ export default function oldschooleatery() {
         <h2 className="font-semibold text-4xl mt-3">Future Scope</h2>
         <div className=" text-xl  text-zinc-500 flex flex-col mt-3">
           The admin panel, currently under development, will offer comprehensive
-          tools for managing the restaurant&apos;s online presence. It will enable
-          the admin to add and delete menu items, manage user data, and track
-          orders. Planned features include easy menu updates, user management,
-          and order tracking to ensure smooth operations. Additionally, a
-          feature allowing users to add items to their cart and place orders
-          directly from the website is also planned.
+          tools for managing the restaurant&apos;s online presence. It will
+          enable the admin to add and delete menu items, manage user data, and
+          track orders. Planned features include easy menu updates, user
+          management, and order tracking to ensure smooth operations.
+          Additionally, a feature allowing users to add items to their cart and
+          place orders directly from the website is also planned.
         </div>
 
         {/* last */}
@@ -90,16 +101,66 @@ export default function oldschooleatery() {
         {/* img */}
         <h2 className="text-3xl my-3 font-semibold">Screenshots</h2>
 
-        <Image src={old_1} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_3} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_6} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_5} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_4} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_2} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_7} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_8} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_9} width={800} className="mx-auto my-10" alt="img"></Image>
-        <Image src={old_10} width={800} className="mx-auto my-10" alt="img"></Image>
+        <Image
+          src={old_1}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_3}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_6}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_5}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_4}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_2}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_7}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_8}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_9}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
+        <Image
+          src={old_10}
+          width={800}
+          className="mx-auto my-10"
+          alt="img"
+        ></Image>
       </section>
     </>
   );

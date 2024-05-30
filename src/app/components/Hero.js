@@ -5,7 +5,6 @@ import { TypeAnimation } from "react-type-animation";
 import img from "../../../public/heroimg.png";
 import Download from "./icons/Download";
 
-
 export default function Hero() {
   return (
     <>
@@ -21,6 +20,7 @@ export default function Hero() {
                 style={{ fontSize: "1em", display: "inline-block" }}
                 repeat={Infinity}
               />
+      
             </span>
             <div className="lg:mt-28 mt-20 mb-14 mx-auto lg:hidden">
               <Image
@@ -50,24 +50,26 @@ export default function Hero() {
             experiences. Now diving into full-stack development to build
             comprehensive, robust web applications.
           </p>
-          <div className="flex  my-12 gap-3 items-center justify-center lg:my-2 lg:items-start lg:justify-start  lg:flex p-3 ">
-            
-          
-               <Link   href='/kashish_upadated_resume.pdf' className="flex gap-2  py-2 px-3 bg-blue-600 hover:bg-blue-500  cursor-pointer" target="_blank">
-                Resume
-                <Download />
-              </Link> 
-          
-            
+          <div className="flex  my-12 gap-3 items-center justify-center  lg:my-2 lg:items-start lg:justify-start  lg:flex p-3 ">
+            {/*  */}
+            <Link
+              href="/kashish_resume.pdf"
+              className="flex gap-2  py-2 px-3 bg-blue-600 hover:bg-blue-500  cursor-pointer"
+             target="_blank"
+            >
+              Resume
+              <Download />
+            </Link>
 
             <Link
               href={"#project"}
               className="border py-2 px-3 bg-transparent 
-                hover:bg-slate-800 cursor-pointer"
+                hover:text-lg cursor-pointer"
             >
-          
               Featured Work
             </Link>
+
+          
           </div>
         </div>
         {/* image */}

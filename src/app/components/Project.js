@@ -7,25 +7,30 @@ import ProArrow from "./icons/ProArrow";
 import msu_1 from "../../../public/msu_1.png";
 import emotion from "../../../public/Emotion.png";
 import Doc from "./icons/Doc";
-import portfolio from "../../../public/portfolio_1.png"
+import portfolio from "../../../public/portfolio_1.png";
 
 export default function Project() {
   return (
     <>
       <section className="text-white mb-10 mt-32  mx-auto " id="project">
         <h2 className="font-semibold text-3xl text-center my-5 ">
-          
           Featured Projects
         </h2>
-        <div className="lg:flex  gap-7 my-5 grid ">
-          <div className="max-w-xl ">
+
+        <div className="lg:flex grid gap-7 mt-5 ">
+          <div className="hidden lg:inline">
+            <Link href={"/oldschooleatery"} className="hover:shadow-lg">
+              <Image
+                src={mainImg}
+                height={2000}
+                alt="img"
+                className="rounded-lg "
+              ></Image>
+            </Link>
+          </div>
+
+          <div className="">
             <h3 className="text-2xl font-semibold my-2">Old School Eatery</h3>
-
-            
-
-
-
-
             <div className="flex gap-3 item-center my-3">
               <Link
                 href={"https://github.com/kashishgadhiya/Old-school-Eatery"}
@@ -48,10 +53,6 @@ export default function Project() {
                 <Doc />
               </Link>
             </div>
-          
-
-
-      
 
             <p className="text-zinc-500">
               The Old School Eatery Restaurant website, developed with Next.js
@@ -72,27 +73,30 @@ export default function Project() {
               <div className="bg-zinc-500 px-2 rounded-full">mongodb</div>
             </div>
           </div>
-          {/* image */}
           <div>
-            <Link href={"/oldschooleatery"} className="hover:shadow-xl">
+            <Link
+              href={"/oldschooleatery"}
+              className="hover:shadow-lg lg:hidden"
+            >
               <Image
                 src={mainImg}
-                width={900}
-                height={900}
-                alt="webimg"
-                className="rounded-lg hover:w-full "
+                width={2000}
+                height={2000}
+                alt="img"
+                className="rounded-lg "
               ></Image>
             </Link>
           </div>
         </div>
+
         {/* --------------------project--2-------------------- */}
         <div className="lg:flex grid gap-7 mt-24 ">
           <div className="hidden lg:inline">
             <Link href={"/msufte"} className="hover:shadow-lg">
               <Image
                 src={msu_1}
-                width={2000}
-                height={2000}
+                width={2600}
+                // height={1500}
                 alt="msu img"
                 className="rounded-lg "
               ></Image>
@@ -139,8 +143,8 @@ export default function Project() {
               <div className="bg-zinc-500 px-2 rounded-full">React icons</div>
             </div>
           </div>
-<div>
-          <Link href={"/msufte"} className="hover:shadow-lg lg:hidden">
+          <div>
+            <Link href={"/msufte"} className="hover:shadow-lg lg:hidden">
               <Image
                 src={msu_1}
                 width={2000}
@@ -153,12 +157,25 @@ export default function Project() {
         </div>
 
         {/* project--3 */}
-        <div className="lg:flex grid  gap-7  mt-24">
-          <div className="max-w-xl">
+
+        <div className="lg:flex grid gap-7 mt-5 ">
+          <div className="hidden lg:inline">
+            <Link href={"/emotionMusic"} className="hover:shadow-lg">
+              <Image
+                src={emotion}
+                height={1800}
+                alt="img"
+                className="rounded-lg "
+              ></Image>
+            </Link>
+          </div>
+
+          <div className="">
             <h3 className="text-2xl font-semibold my-2">
+              {" "}
               Emotion Based Music player
             </h3>
-            <div className="flex gap-2 item-center my-3">
+            <div className="flex gap-3 item-center my-3">
               <Link
                 href={
                   "https://github.com/kashishgadhiya/EMOTION_BASED-MUSIC-PLAYER"
@@ -171,7 +188,7 @@ export default function Project() {
 
               <Link
                 href={"/emotionMusic"}
-                className="mt-1.5 hover:bg-zinc-600 rounded-full hover:p-0.5"
+                className="mt-2 hover:bg-zinc-600 rounded-full hover:p-0.5"
               >
                 <Doc />
               </Link>
@@ -179,12 +196,9 @@ export default function Project() {
 
             <p className="text-zinc-500">
               This project leverages Python, OpenCV, and machine learning
-              algorithms to create a music
-              
-              player that personalizes your music experience based on
-              your emotional state. By detecting
-            
-              facial expressions and recognizing emotions, the system generates
+              algorithms to create a music player that personalizes your music
+              experience based on your emotional state. By detecting facial
+              expressions and recognizing emotions, the system generates
               playlists that match your mood. This technology aims to enhance
               user engagement in fields like entertainment and mental health.
               Explore the repository to see how emotion recognition can
@@ -200,31 +214,34 @@ export default function Project() {
               <div className="bg-zinc-500 px-2 rounded-full">argparse</div>
               <div className="bg-zinc-500 px-2 rounded-full">tkinter</div>
             </div>
-          </div>
-          {/* image */}
-          <div>
-            <Link href={"/emotionMusic"} className="hover:shadow-lg">
-              <Image
-                src={emotion}
-                width={1500}
-                height={1500}
-                alt="projectimg"
-                className="rounded-lg "
-              ></Image>
-            </Link>
+            <div>
+              <Link
+                href={"/emotionMusic"}
+                className="hover:shadow-lg lg:hidden"
+              >
+                <Image
+                  src={emotion}
+                  width={2000}
+                  height={2000}
+                  alt="img"
+                  className="rounded-lg "
+                ></Image>
+              </Link>
+            </div>
           </div>
         </div>
-
-
 
         {/* project 4 */}
         <div className="lg:flex grid gap-7 mt-24 ">
           <div className="hidden lg:inline border-1 rounded-lg">
-            <Link href={"https://kashishgadhiya.vercel.app/"} className="hover:shadow-lg">
+            <Link
+              href={"https://kashishgadhiya.vercel.app/"}
+              className="hover:shadow-lg"
+            >
               <Image
                 src={portfolio}
-                width={2000}
-                height={2000}
+                // width={2200}
+                height={1100}
                 alt="portfolioimg"
                 className="rounded-lg "
               ></Image>
@@ -248,21 +265,29 @@ export default function Project() {
               >
                 <ProArrow />
               </Link>
-           
             </div>
 
             <p className="text-zinc-500">
-            This project is a showcase of my past work, made to highlight the technologies I love. I used Next.js and Tailwind CSS to build the frontend, creating a nice-looking design.  This let me focus on making the portfolio look great and work smoothly, focusing on both how it looks and how well it works.
+              This project is a showcase of my past work, made to highlight the
+              technologies I love. I used Next.js and Tailwind CSS to build the
+              frontend, creating a nice-looking design. This let me focus on
+              making the portfolio look great and work smoothly, focusing on
+              both how it looks and how well it works.
             </p>
             <div className="text-white flex mt-3 gap-2 flex-wrap">
               <div className="bg-zinc-500 px-2 rounded-full">Next Js</div>
               <div className="bg-zinc-500 px-2 rounded-full">Tailwind Css</div>
               <div className="bg-zinc-500 px-2 rounded-full">React</div>
-              <div className="bg-zinc-500 px-2 rounded-full">react-type-animation</div>
+              <div className="bg-zinc-500 px-2 rounded-full">
+                react-type-animation
+              </div>
             </div>
           </div>
-<div>
-          <Link href={"/"} className="hover:shadow-lg lg:hidden border-1 rounded-lg">
+          <div>
+            <Link
+              href={"/"}
+              className="hover:shadow-lg lg:hidden border-1 rounded-lg"
+            >
               <Image
                 src={portfolio}
                 width={1000}
