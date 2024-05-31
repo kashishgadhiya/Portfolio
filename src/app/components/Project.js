@@ -13,16 +13,17 @@ export default function Project() {
   return (
     <>
       <section className="text-white mb-10 mt-32  mx-auto " id="project">
-        <h2 className="font-semibold text-3xl text-center my-5 ">
+        <h2 className="font-semibold text-3xl text-center my-5  ">
           Featured Projects
         </h2>
 
-        <div className="lg:flex grid gap-7 mt-5 ">
+        <div className="lg:flex grid gap-7 mt-6 ">
           <div className="hidden lg:inline">
             <Link href={"/oldschooleatery"} className="hover:shadow-lg">
               <Image
                 src={mainImg}
-                height={2000}
+                width={4100}
+            
                 alt="img"
                 className="rounded-lg "
               ></Image>
@@ -76,7 +77,7 @@ export default function Project() {
           <div>
             <Link
               href={"/oldschooleatery"}
-              className="hover:shadow-lg lg:hidden"
+              className="hover:shadow-lg lg:hidden my-6"
             >
               <Image
                 src={mainImg}
@@ -158,7 +159,7 @@ export default function Project() {
 
         {/* project--3 */}
 
-        <div className="lg:flex grid gap-7 mt-5 ">
+        <div className="lg:flex grid gap-7 mt-24 ">
           <div className="hidden lg:inline">
             <Link href={"/emotionMusic"} className="hover:shadow-lg">
               <Image
@@ -171,7 +172,7 @@ export default function Project() {
           </div>
 
           <div className="">
-            <h3 className="text-2xl font-semibold my-2">
+            <h3 className="text-2xl font-semibold ">
               {" "}
               Emotion Based Music player
             </h3>
@@ -217,14 +218,14 @@ export default function Project() {
             <div>
               <Link
                 href={"/emotionMusic"}
-                className="hover:shadow-lg lg:hidden"
+                className="hover:shadow-lg lg:hidden "
               >
                 <Image
                   src={emotion}
                   width={2000}
                   height={2000}
                   alt="img"
-                  className="rounded-lg "
+                  className="rounded-lg  mt-8"
                 ></Image>
               </Link>
             </div>

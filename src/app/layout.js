@@ -18,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body className={roboto.className}>
         <Navbar />
         <main className=" max-w-7xl p-2 mx-auto maindiv ">{children}</main>

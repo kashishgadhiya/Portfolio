@@ -20,7 +20,7 @@ export default function msufte() {
         <h1 className="text-white font-semibold lg:text-5xl text-4xl">
           Msu Website
         </h1>
-        <div className="flex gap-3 item-center my-3">
+        {/* <div className="flex gap-3 item-center my-3">
           <Link
             href={"https://github.com/kashishgadhiya/Msu-fte"}
             className="hover:bg-zinc-600 rounded-full hover:p-0.5"
@@ -34,7 +34,7 @@ export default function msufte() {
           >
             <ProArrow />
           </Link>
-        </div>
+        </div> */}
         <Image
           src={msu_1}
           width={800}

@@ -5,7 +5,10 @@ import { TypeAnimation } from "react-type-animation";
 import img from "../../../public/heroimg.png";
 import Download from "./icons/Download";
 
+
+
 export default function Hero() {
+  
   return (
     <>
       <section className="text-white lg:flex grid  justify-center items-center lg:my-10 my-2 main maintwo ">
@@ -50,15 +53,18 @@ export default function Hero() {
             experiences. Now diving into full-stack development to build
             comprehensive, robust web applications.
           </p>
-          <div className="flex  my-12 gap-3 items-center justify-center  lg:my-2 lg:items-start lg:justify-start  lg:flex p-3 ">
-            {/*  */}
+          <div className="flex  my-12 gap-3 items-center justify-center  lg:my-2 lg:items-start lg:justify-start  lg:flex p-3   ">
+            {/* */}
+        
             <Link
               href="kashish_resume.pdf"
               className="flex gap-2  py-2 px-3 bg-blue-600 hover:bg-blue-500  cursor-pointer"
-             target="_blank"
-            >
+              target="_blank"
+              >
+              <>
               Resume
               <Download />
+              </>
             </Link>
 
             <Link

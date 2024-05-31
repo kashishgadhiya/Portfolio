@@ -22,13 +22,16 @@ export default function oldschooleatery() {
         <h1 className="text-white font-semibold lg:text-5xl text-4xl">
           Old School Eatery
         </h1>
-        <div className="flex gap-3 item-center my-3">
+         {/* <div className="flex gap-3 item-center my-3">
         <Link
                 href={"https://github.com/kashishgadhiya/Old-school-Eatery"}
                 className="hover:bg-zinc-600 rounded-full hover:p-0.5"
                 target="_blank"
               >
+                <a>
+
                 <Github />
+                </a>
               </Link>
               <Link
                 href={"https://old-school-eatery.vercel.app/"}
@@ -38,7 +41,7 @@ export default function oldschooleatery() {
               >
                 <ProArrow />
               </Link>
-        </div>
+        </div>  */}
         <Image src={old_1} width={800} className="mx-auto my-10"></Image>
         <h2 className="font-semibold text-4xl ">Introduction</h2>
         <p className="text-lg text-zinc-500 my-3">

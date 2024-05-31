@@ -12,9 +12,10 @@ export default function emotionMusic() {
         <h1 className="text-white font-semibold lg:text-5xl text-4xl">
           Emotion-Based Music Player
         </h1>
-        <div className="flex gap-3 item-center my-3">
+
+        {/* <div className="flex gap-3 item-center my-5">
           <Link
-            target="_blank"
+        
             href={
               "https://github.com/kashishgadhiya/EMOTION_BASED-MUSIC-PLAYER"
             }
@@ -22,7 +23,9 @@ export default function emotionMusic() {
           >
             <Github className=" hover:bg-black" />
           </Link>
-        </div>
+        </div> */}
+      
+
         <Image
           src={emotion}
           width={800}
