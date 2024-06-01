@@ -43,7 +43,7 @@ export default function Navbar() {
           <Link href={"#contact"} className="hover:font-semibold">
             Contact
           </Link>
-          <Link href={"/kashish_resume.pdf"} className="hover:font-semibold" target="_blank">
+          <Link href={"https://drive.google.com/file/d/1XXTKjYYSWCnxfG6RaMfVqzeWtthkT94c/view?usp=drive_link"} className="hover:font-semibold" target="_blank">
             Resume
           </Link>
          
@@ -71,7 +71,7 @@ export default function Navbar() {
             <Link href={"#contact"} className="hover:font-semibold">
               Contact
             </Link>
-            <Link href={"/kashish_resume.pdf"} className="hover:font-semibold font-semibold" target="_blank">
+            <Link href={"https://drive.google.com/file/d/1XXTKjYYSWCnxfG6RaMfVqzeWtthkT94c/view?usp=drive_link"} className="hover:font-semibold font-semibold" target="_blank">
             Resume
           </Link>
           </div>
