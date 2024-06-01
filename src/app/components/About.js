@@ -28,7 +28,7 @@ import Abouticon from "./Abouticon";
 export default function About(){
     return (
         <>
-        <section className="flex text-white my-10 gap-5 justify-between items-center flex-wrap " id="about">
+        <section className="flex text-white  my-10 gap-5 justify-between items-center flex-wrap " id="about">
 {/* para */}
 <div className="grid lg:flex gap-5  " >
 

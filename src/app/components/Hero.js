@@ -25,7 +25,7 @@ export default function Hero() {
               />
       
             </span>
-            <div className="lg:mt-28 mt-20 mb-14 mx-auto lg:hidden">
+            <div className="lg:mt-28 mt-24 mb-14 mx-auto lg:hidden">
               <Image
                 src={img}
                 height={700}
@@ -38,7 +38,7 @@ export default function Hero() {
             Hi, I&apos;m{" "}
             <span>
               <TypeAnimation
-                sequence={["kashish Gadhiya", 2000, "Web Developer", 2000]}
+                sequence={["Kashish Gadhiya", 2000, "Web Developer", 2000]}
                 wrapper="span"
                 speed={50}
                 style={{ fontSize: "1em", display: "inline-block" }}
@@ -53,12 +53,13 @@ export default function Hero() {
             experiences. Now diving into full-stack development to build
             comprehensive, robust web applications.
           </p>
-          <div className="flex  my-12 gap-3 items-center justify-center  lg:my-2 lg:items-start lg:justify-start  lg:flex p-3   ">
-            {/* */}
+          {/* <div className="flex  my-12 gap-3 items-center justify-center lg:my-2 lg:items-start lg:justify-start  lg:flex p-3    ">
+          
         
+
             <Link
               href={"https://drive.google.com/file/d/1XXTKjYYSWCnxfG6RaMfVqzeWtthkT94c/view?usp=drive_link"}
-              // href="/kashish_resume.pdf"
+            
               className="flex gap-2  py-2 px-3 bg-blue-600 hover:bg-blue-500  cursor-pointer"
               target="_blank"
               >
@@ -75,11 +76,14 @@ export default function Hero() {
             >
               Featured Work
             </Link>
-
           
-          </div>
+          </div> */}
+          
+          
         </div>
+         
         {/* image */}
+         
         <div className="lg:mt-28 mt-10 mx-auto">
           <Image
             src={img}
