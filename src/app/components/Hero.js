@@ -56,8 +56,9 @@ export default function Hero() {
           <div className="flex  my-12 gap-3 items-center justify-center  lg:my-2 lg:items-start lg:justify-start  lg:flex p-3   ">
             {/* */}
         
+             {/* href={"https://drive.google.com/file/d/1XXTKjYYSWCnxfG6RaMfVqzeWtthkT94c/view?usp=drive_link"} */}
             <Link
-              href="kashish_resume.pdf"
+              href="/kashish_resume.pdf"
               className="flex gap-2  py-2 px-3 bg-blue-600 hover:bg-blue-500  cursor-pointer"
               target="_blank"
               >
