@@ -16,9 +16,75 @@ export default function Project() {
         <h2 className="font-semibold text-3xl text-center my-5  ">
           Featured Projects
         </h2>
-
-        <div className="lg:flex grid gap-7 mt-6 ">
+        <div className="lg:flex grid gap-7 mt-6 my-5 ">
           <div className="hidden lg:inline">
+            <Link href={"/bohofashion"} className="hover:shadow-lg">
+              <Image
+                src='/e_1.png'
+                height={3000}
+                width={2300}
+            
+                alt="img"
+                className="rounded-lg "
+              ></Image>
+            </Link>
+          </div>
+
+          <div className="">
+            <h3 className="text-2xl font-semibold my-2">Boho Fashion</h3>
+            <div className="flex gap-3 item-center my-3">
+              <Link
+                href={"https://github.com/kashishgadhiya/E-commerce_Website"}
+                className="hover:bg-zinc-600 rounded-full hover:p-0.5"
+                target="_blank"
+              >
+                <Github />
+              </Link>
+              <Link
+                href={"/"}
+                className="mt-1 hover:bg-zinc-600 rounded-full hover:p-0.5"
+                target="_blank"
+              >
+                <ProArrow />
+              </Link>
+              <Link
+                href={"/bohofashion"}
+                className="mt-2 hover:bg-zinc-600 rounded-full hover:p-0.5"
+              >
+                <Doc />
+              </Link>
+            </div>
+
+            <p className="text-zinc-500">
+            An e-commerce learning project showcasing user authentication, cart functionality, and admin product management. Built with the MERN stack, users can register, login, and seamlessly add items to their cart, while admins have control over product listings. Perfect for learning MongoDB, Express.js, React, and Node.js!
+            </p>
+            <div className="text-white flex mt-3 gap-2 flex-wrap">
+              <div className="bg-zinc-500 px-2 rounded-full">React js </div>
+              <div className="bg-zinc-500 px-2 rounded-full">Node js </div>
+              <div className="bg-zinc-500 px-2 rounded-full">Express js</div>
+  
+              <div className="bg-zinc-500 px-2 rounded-full">mongodb</div>
+              <div className="bg-zinc-500 px-2 rounded-full">Tailwind css</div>
+            </div>
+          </div>
+          <div>
+            <Link
+              href={"/oldschooleatery"}
+              className="hover:shadow-lg lg:hidden my-6"
+            >
+              <Image
+                 src='/e_1.png'
+                width={2000}
+                height={2000}
+                alt="img"
+                className="rounded-lg "
+              ></Image>
+            </Link>
+          </div>
+        </div>
+       {/*  */}
+        <div className="lg:flex grid gap-7 mt-6 ">
+          <div className="hidden lg:flex items-center">
             <Link href={"/oldschooleatery"} className="hover:shadow-lg">
               <Image
                 src={mainImg}
