@@ -69,7 +69,7 @@ export default function Project() {
           </div>
           <div>
             <Link
-              href={"/oldschooleatery"}
+              href={"/bohofashion"}
               className="hover:shadow-lg lg:hidden my-6"
             >
               <Image
