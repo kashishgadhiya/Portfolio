@@ -58,7 +58,7 @@ export default function oldschooleatery() {
         <p className="text-lg text-zinc-500 my-3">
        
 
-Our Boho Fashion E-commerce website is powered by a robust tech stack designed to provide a seamless shopping experience. Leveraging React for dynamic UIs and Vite for rapid development, our frontend ensures fast and responsive interactions. Node.js and Express handle our backend logic, with MongoDB offering scalable data storage. Multer manages efficient image uploads, while Tailwind CSS provides sleek, responsive designs. Features include secure user authentication, an intuitive shopping cart, and customizable t-shirt designs. With an admin panel for effortless product management and plans for future enhancements like advanced search and expanded customization options, we're committed to delivering a stylish and user-friendly shopping experience for all fashion enthusiasts.
+Our Boho Fashion E-commerce website is powered by a robust tech stack designed to provide a seamless shopping experience. Leveraging React for dynamic UIs and Vite for rapid development, our frontend ensures fast and responsive interactions. Node.js and Express handle our backend logic, with MongoDB offering scalable data storage. Multer manages efficient image uploads, while Tailwind CSS provides sleek, responsive designs. Features include secure user authentication, an intuitive shopping cart, and customizable t-shirt designs. With an admin panel for effortless product management and plans for future enhancements like advanced search and expanded customization options, we&apos;re committed to delivering a stylish and user-friendly shopping experience for all fashion enthusiasts.
         </p>
 
         <h2 className="font-semibold text-4xl mt-3">Future Scope</h2>
