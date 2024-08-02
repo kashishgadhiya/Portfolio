@@ -19,7 +19,7 @@ const ProjectPage = ({ link, imgname, github, weblink, details, desc, techs }) =
                     observer.disconnect();
                 }
             },
-            { threshold: 0.1 } 
+            { threshold: 0.1 }
         );
 
         if (sectionRef.current) {
@@ -34,20 +34,23 @@ const ProjectPage = ({ link, imgname, github, weblink, details, desc, techs }) =
     }, []);
 
     return (
-        <div ref={sectionRef} className={`lg:flex grid gap-7 lg:mt-24 mt-12 ${isVisible ? 'slide-in-bottom' : ''}`}>
-            <div className={`hidden lg:inline ${isVisible ? 'slide-in-left' : ''}`}>
-                <Link href={link} className="hover:shadow-lg">
+        <div ref={sectionRef} className={`grid lg:grid-cols-2 gap-7 lg:mt-24 mt-12 ${isVisible ? 'slide-in-bottom' : ''}`}>
+          
+                <Link href={link} className="block hover:shadow-lg">
+            <div className={`relative ${isVisible ? 'slide-in-left' : ''} hover:shadow-2xl hover:shadow-cyan-500/50 cursor-pointer `}>
                     <Image
                         src={imgname}
-                        width={2600}
-                        height={1500}
+                        layout="responsive"
+                        width={1200} 
+                        height={800} 
                         alt="Project image"
-                        className="rounded-lg"
+                        className="rounded-lg object-cover"
                     />
-                </Link>
             </div>
+                </Link>
 
-            <div className={`${isVisible ? 'slide-in-bottom' : ''}`}>
+           
+            <div className={`flex flex-col ${isVisible ? 'slide-in-bottom' : ''}`}>
                 <h3 className="text-2xl font-semibold my-2">{details}</h3>
                 <div className="flex gap-3 item-center my-3">
                     <Link href={github} className="hover:bg-zinc-600 rounded-full hover:p-0.5" target="_blank">
@@ -67,18 +70,6 @@ const ProjectPage = ({ link, imgname, github, weblink, details, desc, techs }) =
                         <div key={index} className="bg-zinc-500 px-2 rounded-full">{tech}</div>
                     ))}
                 </div>
-            </div>
-
-            <div className={`lg:hidden my-6 ${isVisible ? 'slide-in-right' : ''}`}>
-                <Link href={link} className="hover:shadow-lg">
-                    <Image
-                        src={imgname}
-                        width={2000}
-                        height={2000}
-                        alt="Project image"
-                        className="rounded-lg"
-                    />
-                </Link>
             </div>
         </div>
     );

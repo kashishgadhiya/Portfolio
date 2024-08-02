@@ -41,6 +41,7 @@ export default function Abouticon({ img }) {
             <Image 
                 src={img} 
                 width={40} 
+                height={40}
                 className="" 
                 loading="lazy" 
                 alt="icon" 

@@ -55,7 +55,7 @@ const ProjectDetails = ({
       </h1>
       
       {githubLink && liveLink && (
-        <div className={`flex gap-3 item-center my-3 ${isVisible ? 'slide-in-top' : ''}`}>
+        <div className={`flex gap-3 item-center my-3 ${isVisible ? 'slide-in-top' : ''} lg:hidden `}>
           <Link href={githubLink} className="hover:bg-zinc-600 rounded-full hover:p-0.5 z-50" target="_blank">
             <Github />
           </Link>

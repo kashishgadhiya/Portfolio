@@ -1,4 +1,4 @@
-import Github from "./icons/Github";
+
 import email from "../../../public/email.png";
 import Image from "next/image";
 import Link from "next/link";

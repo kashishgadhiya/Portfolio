@@ -1,30 +1,8 @@
 
-
 "use client";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import html from "../../../public/html.svg";
-import css from "../../../public/css.svg";
-import js from "../../../public/javascript.svg";
-import react from "../../../public/react.svg";
-import express from "../../../public/express.svg";
-import git from "../../../public/git.svg";
-import java from "../../../public/java.svg";
-import mongodb from "../../../public/mongodb.png";
-import netlify from "../../../public/netlify.svg";
-import nextjs from "../../../public/nextjs.svg";
-import sql from "../../../public/sql.svg";
-import nodejs from "../../../public/nodejs.svg";
-import php from "../../../public/php.svg";
-import postman from "../../../public/postman.svg";
-import python from "../../../public/python.svg";
-import vercel from "../../../public/vercel.svg";
-import vite from "../../../public/vite.svg";
-import vsc from "../../../public/vsc.svg";
-import pycharm from "../../../public/PyCharm.png";
-import tailwind from "../../../public/tailwind.png";
-import bootstrap from "../../../public/bootstrap.png";
 import Abouticon from "./Abouticon";
+import Image from "next/image";
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +16,7 @@ export default function About() {
           observer.disconnect();
         }
       },
-      { threshold: 0.1 } // Trigger animation when 10% of the section is visible
+      { threshold: 0.1 }
     );
 
     if (sectionRef.current) {
@@ -58,7 +36,6 @@ export default function About() {
       id="about"
       ref={sectionRef}
     >
- 
       <div className="grid lg:flex gap-5">
         <div className="w-full h-full md:block mt-10">
           <h2
@@ -98,18 +75,19 @@ export default function About() {
             <div className={`flex gap-7 flex-wrap mt-2 ${
                 isVisible ? "slide-in-right" : ""
               }`}>
-              <Abouticon img={html} />
-              <Abouticon img={css} />
-              <Abouticon img={js} />
-              <Abouticon img={python} />
-              <Abouticon img={sql} />
-              <Abouticon img={php} />
-              <Abouticon img={java} />
+              <Abouticon img="/html.svg" />
+              <Abouticon img="/css.svg" />
+              <Abouticon img="/javascript.svg" />
+              <Abouticon img="/python.svg" />
+              <Abouticon img="/sql.svg" />
+              <Abouticon img="/php.svg" />
+              <Abouticon img="/java.svg" />
+            
               <div className="rounded-lg skill flex items-center justify-center w-14 py-3 h-50">
-                <Image src={mongodb} height={82} className="" loading="lazy" alt="mongodb" />
+                <Image src={"/mongodb.png"} height={82} className="" loading="lazy" alt="mongodb" width={90} />
               </div>
-              <Abouticon img={nodejs} />
-              <Abouticon img={git} />
+              <Abouticon img="/nodejs.svg" />
+              <Abouticon img="/git.svg" />
             </div>
             <h3
               className={`border-b-3 text-lg font-semibold mt-5 border-b-1 mb-2 ${
@@ -122,17 +100,17 @@ export default function About() {
             <div className={`flex gap-7 flex-wrap mt-2 ${
                 isVisible ? "slide-in-right" : ""
               }`}>
-              <Abouticon img={react} />
-              <Abouticon img={vite} />
-              <Abouticon img={express} />
-              <Abouticon img={tailwind} />
-              <Abouticon img={nextjs} />
-              <Abouticon img={bootstrap} />
-              <Abouticon img={netlify} />
-              <Abouticon img={vsc} />
-              <Abouticon img={pycharm} />
-              <Abouticon img={postman} />
-              <Abouticon img={vercel} />
+              <Abouticon img="/react.svg" />
+              <Abouticon img="/vite.svg" />
+              <Abouticon img="/express.svg" />
+              <Abouticon img="/tailwind.png" />
+              <Abouticon img="/nextjs.svg" />
+              <Abouticon img="/bootstrap.png" />
+              <Abouticon img="/netlify.svg" />
+              <Abouticon img="/vsc.svg" />
+              <Abouticon img="/pycharm.png" />
+              <Abouticon img="/postman.svg" />
+              <Abouticon img="/vercel.svg" />
             </div>
           </div>
         </div>
