@@ -18,7 +18,7 @@ export default function Project() {
             link="/bohofashion"
             imgname="/boho_1.png"
             github="https://github.com/kashishgadhiya/E-commerce_Website"
-            weblink="/bohofashion"
+            weblink="https://boho-fashion-e-commerce.vercel.app/"
             details="Boho Fashion"
             desc="An e-commerce learning project showcasing user authentication, cart functionality, and admin product management. Built with the MERN stack, users can register, login, and seamlessly add items to their cart, while admins have control over product listings. Perfect for learning MongoDB, Express.js, React, and Node.js!"
             techs={["React js", "Node js", "Express js", "mongodb", "Tailwind css"]}
