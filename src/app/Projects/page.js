@@ -39,7 +39,7 @@ const Projects = () => {
       />
 
 
-      <ProjectPage
+      {/* <ProjectPage
         link="/emotionMusic"
         imgname="/Emotion.png" 
         github="https://github.com/kashishgadhiya/EMOTION_BASED-MUSIC-PLAYER"
@@ -47,7 +47,7 @@ const Projects = () => {
         details="Emotion Based Music player"
         desc="This project leverages Python, OpenCV, and machine learning algorithms to create a music player that personalizes your music experience based on your emotional state. By detecting facial expressions and recognizing emotions, the system generates playlists that match your mood. This technology aims to enhance user engagement in fields like entertainment and mental health. Explore the repository to see how emotion recognition can revolutionize your music experience!"
         techs={["Python", "OpenCV", "Numpy", "glob", "random", "eel", "argparse", "tkinter"]}
-      />
+      /> */}
     <ProjectPage
         link="/msufte"
         imgname="/msu_1.png" 
