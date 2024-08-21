@@ -5,7 +5,7 @@ const BohoFashionPage = () => {
   return (
     <ProjectDetails
       title="Boho Fashion E-commerce Website"
-      mainimg="/boho_1.png" // Main image of the project
+      mainimg="/boho_1.png" 
       intro="Welcome to our Boho Fashion E-commerce website, where we showcase the latest trends in fashion for women, men, and more. This project is designed as a learning experience, leveraging modern web technologies to deliver a seamless shopping experience."
       techs={[
         "React",
