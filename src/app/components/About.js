@@ -108,7 +108,7 @@ export default function About() {
               <Abouticon img="/bootstrap.png" />
               <Abouticon img="/netlify.svg" />
               <Abouticon img="/vsc.svg" />
-              <Abouticon img="/pycharm.png" />
+              // <Abouticon img="/pycharm.png" />
               <Abouticon img="/postman.svg" />
               <Abouticon img="/vercel.svg" />
             </div>
