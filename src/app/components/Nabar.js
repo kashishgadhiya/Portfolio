@@ -38,8 +38,9 @@ export default function Navbar() {
           <Link href={"#about"} className="hover:font-semibold">About</Link>
           <Link href={"/Projects"} className="hover:font-semibold">Projects</Link>
           <Link href={"#contact"} className="hover:font-semibold">Contact</Link>
-         
-)}
+        
+        </div>
+      )}
 
       <header
         className="z-10 fixed top-0 bg-transparent max-w-xl hidden md:block main"
