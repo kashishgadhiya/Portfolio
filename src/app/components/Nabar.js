@@ -38,8 +38,7 @@ export default function Navbar() {
           <Link href={"#about"} className="hover:font-semibold">About</Link>
           <Link href={"/Projects"} className="hover:font-semibold">Projects</Link>
           <Link href={"#contact"} className="hover:font-semibold">Contact</Link>
-          <Link href={"https://drive.google.com/file/d/1hAG2MpV2k_fDQcOJOW0LZbHR-C-Laka4/view?usp=sharing"} className="hover:font-semibold" target="_blank">Resume</Link>
-        </div>
+         
       )}
 
       <header
@@ -57,7 +56,7 @@ export default function Navbar() {
             <Link href={"#about"} className="hover:font-semibold">About</Link>
             <Link href={"/Projects"} className="hover:font-semibold">Projects</Link>
             <Link href={"#contact"} className="hover:font-semibold">Contact</Link>
-            <Link href={"https://drive.google.com/file/d/1yu0SzVfhWhG7QV7lQ1vRIQnFBrlgRDgC/view?usp=sharing"} className="hover:font-semibold font-semibold" target="_blank">Resume</Link>
+           
           </div>
         </nav>
       </header>
